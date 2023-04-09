@@ -1,0 +1,31 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+
+};
+
+.header{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  display: grid;
+  grid-template: 20% 60% 20%;
+
+};
+
+#featured-property{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+};
+
+#details{
+  background-color: rgb(243, 0, 0);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+};

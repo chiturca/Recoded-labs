@@ -1,0 +1,39 @@
+{
+  "name": "js-looping-and-iteration-looping-code-along",
+  "version": "0.1.0",
+  "description": "Learn.co's introduction to looping in JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learn-co-curriculum/js-looping-and-iteration-looping-code-along.git"
+  },
+  "keywords": [
+    "javascript",
+    "for",
+    "while",
+    "loops",
+    "looping",
+    "learn.co",
+    "flatiron school",
+    "code-along"
+  ],
+  "author": "Flatiron School",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/learn-co-curriculum/js-looping-and-iteration-looping-code-along/issues"
+  },
+  "homepage": "https://github.com/learn-co-curriculum/js-looping-and-iteration-looping-code-along#readme",
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "chai": "^4.2.0",
+    "jsdom": "^9.0",
+    "mocha": "5.2.0",
+    "mocha-jsdom": "~1.1.0",
+    "mocha-multi": "^1.0.1",
+    "sinon": "^7.3.1"
+  }
+}
