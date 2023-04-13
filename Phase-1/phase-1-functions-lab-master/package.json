@@ -1,0 +1,36 @@
+{
+  "name": "js-basics-functions-lab",
+  "version": "0.1.0",
+  "description": "JavaScript Basics Functions Lab for Learn.co",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/learn-co-curriculum/js-basics-functions-lab.git"
+  },
+  "keywords": [
+    "learn",
+    "flatiron school",
+    "javascript",
+    "functions",
+    "return",
+    "lab"
+  ],
+  "author": "Flatiron School",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/learn-co-curriculum/js-basics-functions-lab/issues"
+  },
+  "homepage": "https://github.com/learn-co-curriculum/js-basics-functions-lab#readme",
+  "devDependencies": {
+    "babel-core": "6.26.3",
+    "babel-preset-env": "1.7.0",
+    "chai": "4.1.2",
+    "jsdom": "9.2.1",
+    "mocha": "5.2.0",
+    "mocha-jsdom": "~1.1.0",
+    "mocha-multi": "1.0.1"
+  }
+}

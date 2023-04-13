@@ -1,0 +1,22 @@
+body, css {
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+  text-align: center;
+}
+
+body * {
+  margin: 1em;
+  padding: 0;
+  list-style: none;
+}
+
+section {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+#movieDetails {
+  display: block;
+}

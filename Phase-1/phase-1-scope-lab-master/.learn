@@ -1,0 +1,11 @@
+tags:
+  - scope
+  - let
+  - const
+  - var
+  - global
+  - lab
+languages:
+  - javascript
+resources:
+  - 0
